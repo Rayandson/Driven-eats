@@ -119,6 +119,12 @@
   border-radius: 9px;
 }
 
+.prato-container:hover,
+.bebida-container:hover,
+.sobremesa-container:hover {
+  cursor: pointer;
+}
+
 .iconeVerde {
   position: absolute;
   right: 0;
@@ -158,6 +164,7 @@
   border: 1px solid #ebebeb;
   position: fixed;
   bottom: 0;
+  z-index: 3;
 }
 .pedir {
   width: 364px;
@@ -170,6 +177,10 @@
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 .selected {
@@ -250,6 +261,10 @@ border-radius: 9px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.cancelar:hover {
+  cursor: pointer;
 }
 
 .botao-confirmar {
