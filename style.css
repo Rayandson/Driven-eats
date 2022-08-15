@@ -43,6 +43,7 @@
 .content {
   background-color: #e5e5e5;
   padding-top: 31px;
+  padding-bottom: 15px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -68,8 +69,9 @@
   flex-wrap: nowrap;
   overflow-x: scroll;
   gap: 16px;
-  padding-bottom: 7px;
+  padding-bottom: 10px;
 }
+
 
 .pratos img,
 .bebidas img,
@@ -280,4 +282,24 @@ border-radius: 9px;
   font-size: 22px;
   margin-top: 17px;
   margin-bottom: 10px;
+}
+
+@media (min-width: 1024px) {
+  .pratos::-webkit-scrollbar, .bebidas::-webkit-scrollbar, .sobremesas::-webkit-scrollbar {
+    background-color: #e5e5e5;
+    height: 6px;
+
+  }
+  
+  .pratos::-webkit-scrollbar-thumb, .bebidas::-webkit-scrollbar-thumb, .sobremesas::-webkit-scrollbar-thumb {
+    background-color: #999898;
+    border-radius: 5px;
+  
+  }
+}
+
+@media (max-width: 414px) {
+  .footer {
+    width: 100%;
+  }
 }
