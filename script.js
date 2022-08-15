@@ -1,47 +1,4 @@
 
-
-/*const pratos = document.querySelectorAll(".prato-container");
-
-const changeSelectedPrato = () => {
-    pratos.forEach(prato => {
-        prato.classList.remove("selected");
-    })
-}
-pratos.forEach(prato => {
-    prato.addEventListener("click", () => {
-        changeSelectedPrato();
-        prato.classList.add("selected");
-    })
-})
-
-const bebidas = document.querySelectorAll(".bebida-container");
-
-const changeSelectedBebida = () => {
-    bebidas.forEach(bebida => {
-        bebida.classList.remove("selected");
-    })
-}
-bebidas.forEach(bebida => {
-    bebida.addEventListener("click", () => {
-        changeSelectedBebida();
-        bebida.classList.add("selected");
-    })
-})
-
-const sobremesas = document.querySelectorAll(".sobremesa-container");
-
-const changeSelectedSobremesa = () => {
-    sobremesas.forEach(sobremesa => {
-        sobremesa.classList.remove("selected");
-    })
-}
-sobremesas.forEach(sobremesa => {
-    sobremesa.addEventListener("click", () => {
-        changeSelectedSobremesa();
-        sobremesa.classList.add("selected");
-    })
-})*/
-
 let contador = 0;
 function SelecionarPrato(numprato) {
     const selectedprato = document.querySelector(".pratos .selected");
